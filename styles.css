@@ -1,0 +1,425 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+html{
+    
+    margin:auto;
+}
+
+* {
+  box-sizing:border-box
+}
+/*Navbar*/
+
+.navbar{
+    background-color:#FFFFFF !important;
+}
+
+.navbar .navbar-brand{
+    color: #0c963f;
+}
+
+.navbar ul li a{
+    color:black !important;
+}
+.navbar ul li a:hover{
+    background-color: #0c963f;
+    color:white !important;
+} 
+
+
+
+nav ul li a:active{
+    background-color: black;
+    color:white !important;
+}
+/*End Navbar*/
+
+
+/*Energy Systems*/
+
+.page{
+    width:75%;
+    align-items:center;
+    margin:auto;
+}
+
+.page .textwimg{
+    width:60%;
+}
+
+.page .row{
+    padding-bottom:50px;
+}
+
+.page p{
+    font-size:18px;
+}
+
+.page h3{
+    color:#0c963f;
+    font-weight:700;
+    font-size:32px;
+}
+
+.page .pic{
+    width:40%;
+    align-items:center;
+    height:inherit;
+}
+
+.pic img{
+    height:inherit;
+    width:inherit;
+}
+
+.onlytext{
+    width:inherit;
+}
+
+li{
+    font-size:18px;
+}
+/*Cards*/
+.card{
+    height:600px;
+    align-items:center;
+    padding:20px;
+    border:2px solid white;
+}
+
+.card p a{
+    font-size:70%;
+    background-color:white;
+    border:2px dotted blue;
+}
+
+.card img{
+    height:350px;
+    width:350px;
+}
+
+.card a{
+    background-color:#0c963f;
+    border:#0c963f;
+}
+
+.card a:hover{
+    background-color:white;
+    border:2px solid #0c963f;
+    color:#0c963f;
+}
+
+.card-body{
+    margin:auto;
+    text-align:center;
+}
+
+.card-body .btn{
+    text-align:center;
+}
+
+
+
+
+/*Btn Group*/
+.btn-group{
+    width:60%;
+    margin:auto;
+    margin-bottom:70px;
+}
+
+.btn-group .btn{
+    background-color:White;
+    color:#0c963f;
+    border:2px solid #0c963f;
+}
+
+
+/*Body*/
+body{
+  
+    margin:0px;
+    
+}
+
+
+/*Index*/
+
+.homecover {
+    height: 500px;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1655300256335-beef51a914fe?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color:#0c963f;
+    width:inherit;
+    margin:0;
+}
+
+.homecover h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Times, serif;
+    font-weight:600;
+    font-size: 410%;
+    background-color: rgba(12, 150, 63,.9);
+    padding: 55px;
+}
+
+.indexrow{
+    margin:20px;
+    align-items:center;
+    height:inherit;
+    width:100%;
+    column-gap:0;
+    border:2px solid white;
+}
+.indexrow1 h3{
+    color:#0c963f;
+    background-color:white;
+    font-weight:400;
+    margin-bottom:20px;
+    text-align:center;
+    padding:20px;
+    font-size:200%;
+    margin-top:30px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.indexrow1div{
+   padding:40px;
+   background-color:#0c963f;
+   border:2px solid white;
+ 
+}
+
+.indexrow1div p{
+    font-size:180%;
+    color:white;
+    padding:30px;
+    padding-bottom:10px;
+}
+
+.indexrow1div ul{
+    color:white;
+    padding:30px;
+    margin:30px;
+}
+
+.indexrow1div li{
+    font-size:180%;
+}
+
+.indexbtn{
+    width:100%;
+    text-align:center;
+    margin-bottom:20px;
+ 
+}
+
+.btnweird{
+    padding-top:60px;
+}
+
+.index figure img{
+    align-items:center;
+    margin-top:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.index figcaption{
+    text-align:center;
+    font-size:60%;
+}
+/*End Index*/
+
+
+/*General Cover*/
+.cover {
+    height: 400px;
+    position: relative;
+    background-color:#0c963f;
+    width:inherit;
+    margin:auto;
+}
+
+.covertext{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 45px;
+}
+
+.cover h1{
+    font-family: Monaco, serif;
+    font-weight:600;
+    font-size: 500%;
+}
+.cover p{
+    font-size:200%;
+    font-family: Monaco, serif;
+
+}
+
+/*End Cover*/
+
+h2{
+    font-size:25px;
+    font-family:Monaco, serif;
+    font-weight:400;
+}
+
+
+/* Basic Info Styles */
+
+
+/* Statistics Styles */
+
+.statistics{
+    border:3px solid #0c963f;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    height:inherit;
+    text-align:center;
+    align-items:center;
+    margin:0px;
+}
+
+.statistics h6{
+    font-size:200%;
+    text-align:center;
+    font-style:bold;
+    color:#0c963f;
+}
+
+
+.statistics i{
+    font-size:250%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    color:#0c963f;
+}   
+
+/*Footer*/
+
+footer{
+    border-top: solid #0c963f;
+    margin-top:20px;
+    padding:30px;
+    background-color:white;
+}
+
+footer p{
+    vertical-align:middle;
+    color: #0c963f;
+    text-align:center;
+    
+}
+
+footer .first{
+    width:50%;
+    margin:auto;
+    font-size:120%;
+    height:inherit;
+}
+
+footer .second{
+    width:50%;
+    margin:auto;
+    height:inherit;
+}
+
+footer a{
+    color: #0c963f;
+}
+
+footer a:hover{
+    background-color:#0c963f;
+    color:white;
+    font-size:120%;
+}
+
+/*Sources Page*/
+
+.sourcespage h3{
+    padding:20px;
+}
+
+/*Figure*/
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+/*accordion*/
+
+button .accordion-button p{
+    font-size:320%;
+    font-family:Monaco;
+}
+
+#taxcredits23{
+    height:45px;
+}
+
+
+
+
+
+
+html{
+    overflow-x:scroll;
+}
+
+
+.typing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+ .input-cursor {
+      display: inline-block;
+      width: 2px;
+      height: 42px;
+      background-color: white;
+      margin-left: 8px;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+
+.input-cursor { 
+  animation: blink .6s linear infinite alternate;
+}
